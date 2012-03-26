@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = Showtube::VERSION
   s.authors     = ["Pedro Henrique"]
   s.email       = ["pedrohenriqueacruz@gmail.com"]
-  s.homepage    = "phinfonet.wordpress.com"
+  s.homepage    = "http://phinfonet.wordpress.com"
   s.summary     = "Summary of Showtube."
   s.description = "Showtube is a youtube videos show."
 

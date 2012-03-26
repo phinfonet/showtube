@@ -1,7 +1,7 @@
 module Showtube
   module ApplicationHelper
     #youtube videos
-    def youtube_tag(vid, shwidth, shheight, html_options = {})
+    def showtube_tag(vid, shwidth, shheight, html_options = {})
       %{<iframe width="#{shwidth}" height="#{shheight}" src="http://www.youtube.com/embed/#{vid}" frameborder="0" allowfullscreen></iframe>}.html_safe
     end
     

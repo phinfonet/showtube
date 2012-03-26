@@ -16,6 +16,14 @@
     <%= f.text_field :title %>
   </div>
   <div class="field">
+	<%= f.label "video size" %>
+  	<%= f.text_field :shwidth %> x <%= f.text_field :shheight %>
+  </div>
+  <div class="field">
+	<%= f.label "image size" %>
+  	<%= f.text_field :imwidth %> x <%= f.text_field :imheight %>
+  </div>
+  <div class="field">
     <%= f.label :url %><br />
     <%= f.text_field :url %>
   </div>
