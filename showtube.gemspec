@@ -7,11 +7,11 @@ require "showtube/version"
 Gem::Specification.new do |s|
   s.name        = "showtube"
   s.version     = Showtube::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Showtube."
-  s.description = "TODO: Description of Showtube."
+  s.authors     = ["Pedro Henrique"]
+  s.email       = ["pedrohenriqueacruz@gmail.com"]
+  s.homepage    = "phinfonet.wordpress.com"
+  s.summary     = "Summary of Showtube."
+  s.description = "Showtube is a youtube videos show."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
