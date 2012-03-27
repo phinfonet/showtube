@@ -1,6 +1,6 @@
 = Showtube
 
-PT-BR:
+= PT-BR:
 Essa é uma gem que tem a função de exibir videos do youtube em uma app rails.
 
 para utilizar, acrescente em seu model:
@@ -16,7 +16,7 @@ Para exibir a imagem do video:
 
 <%= showtube_img_tag(video.vid) %>
 
-En:
+= En:
 This is a gem that show youtube videos in a app rails.
 
 for use, add in your model:
